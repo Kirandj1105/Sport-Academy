@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%; 
+ 
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.coaching{
+    color: black;
+    text-decoration: none;
+}
+
+#button1{
+    width: 50%;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+#button1:hover{
+    border-radius: 5px;
+    background-color: blue;
+    cursor:  pointer;
+}
+
+.card-content {
+    display: flex;
+}
+
+.card-column {
+    flex: 1;
+    padding: 10px;
+}
+
+.details {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.fakeimg {
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.Img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+   
+}
+
+.footer-margin {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+    .row {
+        justify-content: flex-start;
+    }
+}
+
+.card{
+    text-decoration: none;
+    color: black;
+}

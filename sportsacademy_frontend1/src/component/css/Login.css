@@ -1,0 +1,62 @@
+.loginpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    background: linear-gradient(90deg, #4d6d9a, #546e7a);
+  
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin: 20px auto; 
+}
+
+.login-h2 {
+    text-align: center;
+    color: #333;
+}
+
+
+.login-form-group {
+    margin-top: 15px;
+}
+
+
+.login-form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-buttons {
+    margin-left: 25px;
+    text-align: center; 
+}
+
+.login-admin,
+.login-coach {
+    display: block; 
+    margin: 10px auto; 
+}
+
+.login-admin {
+    background-color: #dc3545;
+}
+
+.login-coach {
+    background-color: #28a745;
+}
+

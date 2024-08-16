@@ -1,0 +1,138 @@
+.social-icons {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px; 
+  }
+  
+  .social-icon {
+    display: inline-block;
+    margin: 0 10px; 
+    font-size: 24px; 
+    color: #333; 
+  }
+  
+  .social-icon:hover {
+    color: #007bff; 
+  }
+
+.MDBFooter {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .social-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; 
+  }
+  
+  .social-icon {
+    font-size: 24px; 
+    margin: 0 15px; 
+    color: #fff; 
+  }
+  
+  .social-icon:hover {
+    color: #007bff; 
+  }
+  
+  .ftext,
+  .ftext1 {
+    color: #fff !important; 
+  }
+  
+  .bg-body-tertiary{
+    color: White;
+    background-color: black;
+  }
+
+  .image-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+}
+.image-container img{
+    width: 100px;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+}
+
+.shadows {
+    margin-bottom: 130px;
+    position: relative;
+    text-transform: uppercase;
+    text-shadow: -15px 5px 20px #ced0d3;
+    color: white;
+    letter-spacing: -0.05em;
+    font-family: 'Anton', Arial, sans-serif;
+    user-select: none;
+    text-transform: uppercase;
+    font-size: 40px;
+    transition: all 0.25s ease-out;
+}
+
+.our-vision-paragraph{
+  display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.our-vision{
+  font-weight: bold;
+  color: #E53935;    
+}
+
+.shadows:hover {
+    text-shadow: -16px 6px 15px #ced0d3;
+} 
+
+  .heading{
+    align-content: space-evenly;
+  }
+
+  .about-page{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+  }
+
+  .aboutUs-container{
+    background-color: #ECEFF1;
+    margin-top: 20px;
+    padding: 0px 3px 3px 3px;
+    border-radius: 10px;
+  }
+
+  .core-team-container{
+    background-color: #ECEFF1;
+    margin-top: 20px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 10px;
+  }
+
+  .cards-container{
+    padding: 0px 0px 0px 90px;
+  }
+
+  .para-content{
+    font-size: 18px;
+  }
+
+  .mt-5{
+margin-left: 140px;
+
+  }
+
+  .about-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

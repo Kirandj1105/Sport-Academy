@@ -1,0 +1,41 @@
+#regi {
+  padding: 20px;
+}
+
+#reg {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.regi-container {
+  margin-top: 20px;
+}
+
+.mt-4 {
+  margin-top: 1rem !important;
+}
+
+#rsubmit {
+  margin-top: 20px;
+}
+
+form > div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="time"] {
+  margin-right: 10px;
+}
+
+.validation-msg {
+  color: red;
+}
+
+
+

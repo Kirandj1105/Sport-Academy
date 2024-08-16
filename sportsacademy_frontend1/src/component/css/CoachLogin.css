@@ -1,0 +1,56 @@
+.coachloginpage {    
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    background: linear-gradient(90deg, #4d6d9a, #546e7a);
+  
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin: 20px auto;
+
+}
+  
+  .coach-login-h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .coach-login-form-group {
+    text-align: left;
+  }
+  
+  .coach-login-form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .coach-login-form-control:focus {
+    border-color: #007bff;
+  }
+  
+  .coach-password-field {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .coach-login-button {
+    background-color: #007bff;
+    color: #fff;  
+    position: relative; 
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .coach-login-button:hover {
+    background-color: #0056b3;
+  }

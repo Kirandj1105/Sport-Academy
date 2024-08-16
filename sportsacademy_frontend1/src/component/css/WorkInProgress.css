@@ -1,0 +1,60 @@
+/* WorkInProgress.css (CSS Styles) */
+
+/* .work-in-progress-container {
+    text-align: center;
+    margin: 50px;
+  }
+
+  .image-container{
+    
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+    background-image: url('../images/Maintenance.png');
+    height: 100vh;
+  } */
+
+  .work-in-progress-container {
+    text-align: center;
+    margin: 50px;
+  }
+
+  .wip-description{
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .image-container {
+    max-width: 100%;
+    height: 100vh; /* Set the height to cover the full viewport height */
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url('../images/Maintenance.png');
+    background-size: cover; /* Ensure the background image covers the container */
+    background-position: center; /* Center the background image */
+  }
+  
+  
+  .wip-heading {
+    color: #333;
+  }
+  
+  .wip-paragraph {
+    color: #777;
+  }
+  
+  /* .wip-image {
+    max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url('../images/websiteconstruction.avif');
+  } */
+  

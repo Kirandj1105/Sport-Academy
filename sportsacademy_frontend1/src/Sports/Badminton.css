@@ -1,0 +1,21 @@
+/* Badminton.css */
+.badminton-facilities-container {
+    background-color: hsl(0, 100%, 90%); /* Set your desired background color */
+    padding: 20px; /* Add padding for better readability */
+  }
+.para-content{
+    background-color: lightblue;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}  
+.tt1{
+    margin-left: 250px;
+}
+.badminton-image{
+   margin-left: 10%;
+    background-size: cover;
+}
+#yt{
+   margin-left: 350px;
+}
